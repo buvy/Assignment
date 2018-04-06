@@ -1,0 +1,35 @@
+.detailsContainer{
+    margin: 0 auto;
+    border-radius: 2px;  
+    box-sizing: border-box;      
+    box-shadow: 2px 0px 10px 1px rgba(179,179,179,1);
+}
+.imageContainer{
+    float: left;
+    width: 30%;
+    padding: 10px;
+    box-sizing: border-box;
+}
+.descContainer{
+    float: right;
+    width: 70%;
+}
+.foodName{
+    box-sizing: border-box;
+    font-size: 20px;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+.foodTypeSpicy{
+    background:url('../Images/chilli.png') no-repeat top left;
+    background-size: contain;
+    display: inline-block;
+    padding-left:20px;
+    height: 17px;
+    width: 50px;
+    font-size: 12px;
+}
+.foodTypeNV{
+    font-size: 12px;
+}
+

@@ -1,0 +1,69 @@
+.maincontainer{
+    width: 100%;
+    margin: 0 auto;
+}
+.foodCard{
+    border-radius: 2px;  
+    box-sizing: border-box;      
+    box-shadow: 2px 0px 10px 1px rgba(179,179,179,1);
+    width: 300px;
+    padding: 15px;
+    margin: 10px auto;
+}
+.foodImage{
+    box-sizing: border-box;
+    width: 100%;
+    height: 100%;
+    padding: 2px;
+}
+.foodName{
+    text-align: left;
+    font-weight: bold;
+    text-transform: capitalize;
+    font-family: Arvo;
+    font-size: 18px;
+}
+.foodTypeNV{
+    font-size: 12px;
+}
+.foodTypeSpicy{
+    background:url('../Images/chilli.png') no-repeat top left;
+    background-size: contain;
+    display: inline-block;
+    padding-left:20px;
+    height: 17px;
+    width: 50px;
+    font-size: 12px;
+}
+.foodDetailsBtn{
+    width: 120px;
+    background-color: #ff0000;
+    color: #ffffff;
+    font-size: 14px;
+    border-radius: 4px;
+    padding: 8px;
+    border: none;
+    float: right;
+    
+}
+@media (min-width:961px)  {
+    .maincontainer{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: row;
+        width: 640px;
+        flex-wrap: wrap;
+        margin: 0 auto;
+    }
+}
+@media (min-width:1025px) { 
+     .maincontainer{
+        width: 960px;
+    }
+ }
+@media (min-width:1281px) {  
+    .maincontainer{  
+        width: 1281px;
+    } 
+}
